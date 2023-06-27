@@ -1,7 +1,10 @@
 ﻿
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "Hello World!\n";
+    for (int i = 0; i < 10; i++) {
+        cout << i << " ";
+    }
 }
